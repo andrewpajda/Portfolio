@@ -1,4 +1,9 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.js';
+
 import '../sass/index.scss';
 
-const testVar = 'testVar';
-
+ReactDOM.render(
+    <App />, document.getElementById('root')
+);
